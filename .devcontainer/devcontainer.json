@@ -1,24 +1,24 @@
 {
-  "name": "Renovate",
+  "name": "Code Security",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Code "
   },
   "init": true,
   "hostRequirements": {
     "cpus": 4,
-    "memory": "8gb",
-    "storage": "32gb"
+    "memory": "0",
+    "storage": "8"
   },
   "customizations": {
     "vscode": {
-      "terminal.integrated.profiles.linux": {
+      "": {
         "bash": {
-          "path": "bash",
-          "icon": "terminal-bash"
+          "path": "",
+          "icon": "terminalh"
         }
       },
       "extensions": [
-        "dbaeumer.vscode-eslint",
+        "dbaeumer.vscode-deslink",
         "esbenp.prettier-vscode",
         "vitest.explorer",
         "editorconfig.editorconfig",
